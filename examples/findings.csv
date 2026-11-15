@@ -1,0 +1,9 @@
+id,service,severity,opened_at,closed_at,internet_exposed,exploited,owner
+F-001,api,critical,2026-10-20T00:00:00Z,,true,true,application-team
+F-002,api,high,2026-09-20T00:00:00Z,,true,false,application-team
+F-003,worker,medium,2026-10-10T00:00:00Z,2026-10-15T00:00:00Z,false,false,platform-team
+F-004,edge,high,2026-10-01T00:00:00Z,2026-10-10T00:00:00Z,true,false,platform-team
+F-005,platform,critical,2026-10-01T00:00:00Z,2026-10-12T00:00:00Z,false,false,platform-team
+F-006,storage,low,2026-10-25T00:00:00Z,,false,false,storage-team
+F-007,api,high,2026-11-03T00:00:00Z,,true,false,application-team
+F-008,worker,high,2026-09-15T00:00:00Z,2026-11-05T00:00:00Z,false,false,platform-team
