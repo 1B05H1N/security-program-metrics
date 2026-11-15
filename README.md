@@ -1,4 +1,4 @@
-# Security program metrics
+# Security Program Metrics
 
 Turn a validated vulnerability CSV into a deterministic backlog, remediation
 queue, SLA report, and mean remediation time. The example records are synthetic.
@@ -6,7 +6,7 @@ There are no external services or third-party Python dependencies.
 
 Use Python 3.11 or newer.
 
-## Run
+## Quick Start
 
 ```sh
 python3 -m unittest -v
@@ -50,7 +50,7 @@ silently discarded as malformed.
   oldest opening, and ID as a stable tiebreaker. This is an explicit ordering,
   not a calibrated risk score.
 
-## Interpretation limits
+## Interpretation Limits
 
 Closure-only metrics exclude unresolved findings and can look better while a
 backlog grows. Read them alongside backlog and overdue counts. The example does
@@ -63,4 +63,8 @@ controls; do not put real vulnerability exports in this repository.
 
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**1B05H1N** - [GitHub Profile](https://github.com/1B05H1N)
